@@ -42,7 +42,7 @@ def Spider():
         name, value = cookies.strip().split('=', 1)
         cookie[name] = value
 
-    date_list = getBetweenDay('2020/04/28', '2020/04/28')
+    date_list = getBetweenDay('2020/04/29', '2020/05/12')
     for n in date_list:
         data = {
             'type': 'realTimeHotSearchList',

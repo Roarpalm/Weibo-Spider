@@ -21,6 +21,7 @@ for j in keywords:
     jieba.suggest_freq('李天一', True)
     jieba.suggest_freq('李七月', True)
     jieba.suggest_freq('李国庆', True)
+    jieba.suggest_freq('王者荣耀', True)
     seg_list = jieba.cut(j, cut_all=False)
     for n in seg_list:
         cut_words.append(n)
